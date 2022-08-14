@@ -1,0 +1,30 @@
+.HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.headerLogo {
+    padding-left: 100px;
+}
+
+.LogoSize {
+    width: 136.63px;
+    height: 63px;
+}
+
+.HeaderMenuListing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderMenuListing li{
+    list-style: none;
+    padding: 0px 20px;  
+}
+
+.headerMobileMenuIcon {
+    padding-right: 100px;
+}

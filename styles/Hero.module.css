@@ -1,0 +1,112 @@
+
+.heroContainer {
+    padding: 100px 50px;
+    position: relative;
+} 
+
+.heroWrapper {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
+    background-image: url('../public/images/Vector-1.png');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+.childOne {
+    grid-column: 1 / 9;
+    text-align: right;
+
+}
+
+.childTwo {
+    grid-column: 1 / 4;
+}
+
+.childThree {
+    grid-column: 4 / 9;
+    height: 50px;
+}
+
+.childFour {
+    grid-column: 9 / -1;
+    grid-row: 9/-1;
+}
+
+.childOneWrap h2 {
+    padding: 0px;
+    margin: 0px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 160px;
+    text-align: right;
+    margin-top: -73px;
+}
+
+.childTwoWrap {
+    margin-left: 80px;
+}
+
+.childTwoWrap img {
+    width: 200px!important;
+    height: auto!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.childFourWrap img{
+    width: 300px!important;
+    height: auto!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.childThreeWrap {
+    padding: 20px 15px;
+}
+
+.buyTicketButton a {
+    background-color: #FFC93E;
+    padding: 10px 40px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: .2s ease-in-out 0s;
+}
+
+.buyTicketButton a:hover {
+    color: #fff;
+    background-color: #222c6c;
+    opacity: 0.9;
+}
+
+.childOneWrap {
+    position: relative;
+}
+
+.childoneIconPosition {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    z-index: 100;
+    top: 6px;
+    right: 327px;
+}
+
+.childFourWrap {
+    position: relative;
+    margin-top: 50px;
+}
+
+.IconPositon {
+    position: absolute;
+    right: 368px;
+    top: 278px;
+    z-index: 100;
+    height: 50px;
+    width: 50px;
+    transform: rotate(66deg);
+}
